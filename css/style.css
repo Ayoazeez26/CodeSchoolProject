@@ -16,6 +16,10 @@ body{
   margin: auto;
   overflow: hidden;
 }
+.home-image{
+    width: 100%;
+    overflow: hidden;
+}
 ul{
   margin:0;
   padding: 0;
@@ -102,6 +106,10 @@ header a:hover{
     height: 400px;
 }
 
+.home-image img{
+    width: 100%;
+}
+
 /* Newsletter */
 #newsletter{
   padding: 10px;
@@ -111,6 +119,7 @@ header a:hover{
 
 #newsletter h3{
   float: left;
+  color: rgb(0,255,105);
 }
 
 #newsletter form{
@@ -140,6 +149,10 @@ header a:hover{
 #boxes .box img{
   width: 150px;
   height: 100px;
+}
+
+#follow h3{
+    color: rgb(0,255,105);
 }
 
 /*About Page*/
